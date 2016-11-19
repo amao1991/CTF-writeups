@@ -6,7 +6,9 @@
 	*	[keyboard (100)](#keyboard)
 	*	[n 次 base64 (200)](#n次base64)
 * Misc
+	*	[easy wireshark (50)](#easy_wireshark)
 * Stego
+	*	[女神 (50)](#女神)
 
 <h2 id="easy!">easy! (50)</h2>
 
@@ -43,3 +45,21 @@ for i in range(1, 50):
 次數剩很少時直接用線上 decode
 
 `flag:nctf{please_use_python_to_decode_base64}`
+
+<h2 id="easy_wireshark">easy wireshark (50)</h2>
+
+> wireshark.pcapng
+
+hint: 听说抓到他浏览网页的包,flag就在网页里
+
+用 wireshark 開 .pcapng，export HTTP
+
+就有一個檔案叫 flag.php
+
+<h2 id="女神">女神 (50)</h2>
+
+> misc1.jpg
+
+用記事本打開圖檔
+
+`nctf{pic_yin_xie_shu}`
