@@ -69,8 +69,6 @@ m 的由來是打開 flag 檔案 -> 讀取 -> 轉成十六進位 -> 轉成十進
 
 把 m 轉回十六進位，再轉回字串，得到 flag
 
-----------
-
 <h2 id = "mayday-crypto">mayday (crypto)</h2>
 
 已知：`e = 7`，分別在七個不同的 module n 下加密，得到七個不同的密文
@@ -84,8 +82,6 @@ m 的由來是打開 flag 檔案 -> 讀取 -> 轉成十六進位 -> 轉成十進
 只要 k >= e，就可以用 CRT(Chinese Remainder Theorem) 求得明文 m
 
 (有空再補 code)
-
-----------
 
 <h2 id = "Alien-crypto">Alien (crypto)</h2>
 
@@ -108,8 +104,6 @@ New planet found. Inhabitants are hydrocarbon lifeforms with a similar mathemati
 ```
 
 把空格跟標點符號刪掉就是 flag 了
-
-----------
 
 <h2 id = "WebBabyFirst">WebBabyFirst (Web)</h2>
 
@@ -180,8 +174,6 @@ google chrome ，有個 console
 在裡面貼上這些 code
 
 `CTF{c0uld_y0u_r3v3r53_51mpl3_j5?y35,y0u_c4n!!!}`
-
-----------
 
 <h2 id = "Mission">Mission (Web)</h2>
 
@@ -305,7 +297,9 @@ for i in range(256):
 
 url encode 後面固定用十六進位表示，可以直接把 0x 取代成 %
 
-> %00%01%02%03%04%05%06%07%08%09%0A%0B%0C%0D%0E%0F%10%11%12%13%14%15%16%17%18%19%1A%1B%1C%1D%1E%1F%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37%38%39%3A%3B%3C%3D%3E%3F%40%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A%5B%5C%5D%5E%5F%60%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A%7B%7C%7D%7E%7F%80%81%82%83%84%85%86%87%88%89%8A%8B%8C%8D%8E%8F%90%91%92%93%94%95%96%97%98%99%9A%9B%9C%9D%9E%9F%A0%A1%A2%A3%A4%A5%A6%A7%A8%A9%AA%AB%AC%AD%AE%AF%B0%B1%B2%B3%B4%B5%B6%B7%B8%B9%BA%BB%BC%BD%BE%BF%C0%C1%C2%C3%C4%C5%C6%C7%C8%C9%CA%CB%CC%CD%CE%CF%D0%D1%D2%D3%D4%D5%D6%D7%D8%D9%DA%DB%DC%DD%DE%DF%E0%E1%E2%E3%E4%E5%E6%E7%E8%E9%EA%EB%EC%ED%EE%EF%F0%F1%F2%F3%F4%F5%F6%F7%F8%F9%FA%FB%FC%FD%FE%FF
+```
+ %00%01%02%03%04%05%06%07%08%09%0A%0B%0C%0D%0E%0F%10%11%12%13%14%15%16%17%18%19%1A%1B%1C%1D%1E%1F%20%21%22%23%24%25%26%27%28%29%2A%2B%2C%2D%2E%2F%30%31%32%33%34%35%36%37%38%39%3A%3B%3C%3D%3E%3F%40%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A%5B%5C%5D%5E%5F%60%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A%7B%7C%7D%7E%7F%80%81%82%83%84%85%86%87%88%89%8A%8B%8C%8D%8E%8F%90%91%92%93%94%95%96%97%98%99%9A%9B%9C%9D%9E%9F%A0%A1%A2%A3%A4%A5%A6%A7%A8%A9%AA%AB%AC%AD%AE%AF%B0%B1%B2%B3%B4%B5%B6%B7%B8%B9%BA%BB%BC%BD%BE%BF%C0%C1%C2%C3%C4%C5%C6%C7%C8%C9%CA%CB%CC%CD%CE%CF%D0%D1%D2%D3%D4%D5%D6%D7%D8%D9%DA%DB%DC%DD%DE%DF%E0%E1%E2%E3%E4%E5%E6%E7%E8%E9%EA%EB%EC%ED%EE%EF%F0%F1%F2%F3%F4%F5%F6%F7%F8%F9%FA%FB%FC%FD%FE%FF
+```
 
 空格要刪掉
 
@@ -343,9 +337,6 @@ arg2[ ]=217a&arg2[ ]=1&arg2[ ]=1
 
 `CTF{you_already_know_how_to_send_GET_and_POST_requests}`
 
-
-----------
-
 <h2 id = "Login">Login as admin 1 (Web)</h2>
 
 **Flag 1**
@@ -364,8 +355,6 @@ Disallow: /backup/
 下載打開後
 
 flag 1 就藏在 index.php 的註解中
-
-----------
 
 <h2 id = "Eve">Eve (forensic)</h2>
 
@@ -442,8 +431,6 @@ gift.zip 就變成綠色的顯示 Repaired
 
 就得到 flag 2 了
 
----------
-
 <h2 id = "What_is_that">What is that (misc)</h2>
 
 下載檔案後是一個 QR code
@@ -454,15 +441,11 @@ gift.zip 就變成綠色的顯示 Repaired
 
 得到 flag
 
-----------
-
 <h2 id = "Large">Large (misc)</h2>
 
 也是一個 QR code
 
 跟上一題的解法完全一樣
-
-----------
 
 <h2 id = "LLARGE">LLARGE (misc)</h2>
 
@@ -485,8 +468,6 @@ PK���������4�G�+W�G���H�������flag.t
 [010 editor](http://www.sweetscape.com/010editor/) 可以把十六進位轉成壓縮檔
 
 存成 .zip 檔，解壓縮，得到 flag.txt 
-
-----------
 
 <h2 id = "zxcvb">zxcvb (misc)</h2>
 
