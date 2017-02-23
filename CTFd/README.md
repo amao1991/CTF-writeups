@@ -10,6 +10,12 @@
 * Stego
 	*	[女神 (50)](#女神)
 
+<h2>Web</h2>
+
+...
+
+我居然把 Web 整份 writeup 弄丟了呢...
+
 <h2 id="easy!">easy! (50)</h2>
 
 bmN0Znt0aGlzX2lzX2Jhc2U2NF9lbmNvZGV9
