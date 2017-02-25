@@ -94,8 +94,6 @@ firefox - HackBar - Enable Post data
 
 <h2 id="這題不是Web">這題不是 Web (100)</h2>
 
-> 2.gif
-
 用 .txt 開啟
 
 `nctf{photo_can_also_hid3_msg}`
