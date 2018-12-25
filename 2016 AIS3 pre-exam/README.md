@@ -7,7 +7,7 @@
 
 <h2 id = "web1">Web 1</h2>
 
-/robot.txt
+/robots.txt
 
 <h2 id = "web2">Web 2</h2>
 
